@@ -9,7 +9,7 @@ public class checkPalindrome {
         else{
             i++ ;
             j--;
-        }
+        }//djd
       }
       return true ;
     }
