@@ -24,4 +24,4 @@ class Solution{
         int index=0;
         return help(index,0,size-1,pre,preMirror,size);
     }
-};
+// };
