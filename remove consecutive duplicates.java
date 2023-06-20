@@ -14,7 +14,7 @@ public class removeconsecutiveduplicates {
     }
     public static void main (String args[]){
         int arr[]= {10,10,20,20,20,40,70};
-        ArrayList<Integer> result = removeConsecutiveDule(arr);
+        ArrayList<Integer> result = removeConsecutiveDuplicates(arr);
         for(int i = 0 ; i<result.size();i++){
             System.out.println(result.get(i));
         }
