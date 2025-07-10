@@ -6,7 +6,7 @@ public static node<Integer> mergeLL( node<Integer> head1 , node<Integer> head2){
     return head1;
   }
   node<Integer> t1 = head1, t2 = head2;
-  node<Integer> head = null, tail = null;
+  node<Integer> head = null, tail = null;//assigning values to head and tail of the linked list
   if(t1.data <= t2.data){
     head= t1;
     tail=t1;
